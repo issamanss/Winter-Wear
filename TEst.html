@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="toggleBox()">Toggle Box</button>
+  <div id="box" class="box">This is the box</div>
+
+  <script>
+    var box = document.getElementById("box");
+
+    function toggleBox() {
+      if (box.style.display === "none") {
+        box.style.display = "block";
+        document.addEventListener("click", clickHandler);
+      } else {
+        box.style.display = "none";
+        document.removeEventListener("click", clickHandler);
+      }
+    }
+
+    
+  </script>
+</body>
+</html>

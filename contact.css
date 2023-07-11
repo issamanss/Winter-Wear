@@ -1,0 +1,275 @@
+#content{
+    margin-top: 5rem;
+    /*background: linear-gradient(rgba(0, 0, 0, 0.939), rgba(0, 0, 0, 0.964)), url(/photos/ziczac.png);*/
+    background: #F7F2EF;
+    
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+   
+}
+#contactus-title-body{
+    width: 100%;
+    height: 350px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background: #555A54;
+   
+}
+#contactus-title{
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#contactus-title-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.54);
+    text-align: center;
+}
+#title-Address-phone-Email-body{
+    color: black;
+    height: 40px;
+    display: flex;
+    width: auto;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 40px;
+    border-left: 5px #555A54 solid;
+    padding-left: 7px;
+    background-color: #E1DDD2;
+
+}
+.Address-phone-Email-body{
+    margin-top: 10px;
+    width: 96%;
+    height: 340px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.Address-phone-Email{
+    width: 32%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   background-color: #555A54;
+   border-radius: 8px;
+}
+.Address-phone-Email:hover{
+    transform: scale(1.04);
+}
+.Address-phone-Email img{
+    margin-top: 50px;
+}
+#Address-phone-Email-text{
+    color: white;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+#Address-phone-Email-content-body{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin: auto;
+}
+#Address-phone-Email-content-body p{
+color: white;
+font-size: 16px;
+font-weight: 500;
+padding-bottom: 10px;
+}
+.contactus-explanation{
+    color: black;
+    height: auto;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #E1DDD2;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contactus-img-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.contactus-img-body img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.contactus-img-body p{
+   color: black;
+   font-size: 18px;
+   font-weight: 800;
+   margin-bottom: 5px;
+}
+
+form{
+    width: 99%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 40px;
+    border-radius: 5px;
+    padding-top: 20px;
+  padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #555A54;
+}
+#map{
+    margin-top: 10px;
+    margin-bottom: 40px;
+  width: 80%;
+  height: 300px;
+  filter: brightness(60%);
+  transition: 1s;
+  border-radius: 10px;
+  border: 10px #555A54 solid;
+   
+}
+#map:hover{
+  filter: brightness(100%);
+}
+
+.inputtext{
+width: 400px;
+height: 50px;
+margin-bottom: 30px;
+background: #F7F2EF;
+border: none;
+padding-left: 10px;
+outline: none;
+border-radius: 8px;
+filter: brightness(90%);
+transition: 1s;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+#message{
+    width: 400px;
+    background: #F7F2EF;
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: none;
+    resize: none;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: 500;
+   filter: brightness(90%);
+   transition: 1s;
+}
+#send-clear-body{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+#send-clear-body input,#send-clear-body button{
+    width: 150px;
+    height: 35px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: limegreen;
+    filter: brightness(70%);
+   border-top-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+    transition: 1s;
+}
+
+#send-clear-body input:hover{
+    filter: brightness(100%);
+    cursor: pointer; 
+}
+
+#lableupload{
+    background-color: gray;
+    height: 50px;
+    width: 400px;
+   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#message:hover,.inputtext:hover{
+    filter: brightness(100%);
+}
+
+#inputtext::placeholder,#message::placeholder{
+    color: black;
+    font-size: 15px;
+}
+
+#clear{
+    display: none;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    color: red;
+}
+#submit{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+#send-clear-swap{
+    height: auto;
+    width: auto;
+    display:flex;
+    align-items: center;
+}
+#swap{
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    filter: brightness(70%);
+    transition: 0.5s;
+}
+#swap:hover{
+    filter: brightness(100%);
+    cursor: pointer;
+}

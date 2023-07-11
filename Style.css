@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.top ul li button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+.top  a{
+   margin-left: 40px;
+   text-decoration: none;
+   font-size: 24px;
+   color: gray;
+   letter-spacing: 2px;
+   font-weight: bold;
+}
+.top ul {
+    margin-right: 40px;
+    list-style: none;
+}
+.top{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 2px rgba(255, 255, 255, 0.281) dashed;
+   position: fixed;
+   z-index: 1;
+}
+.top ul li button:hover,
+.top ul li button.active {
+    color: gray;
+    transition: 0.5s;
+    transform: scale(1.075);
+}
+.contnet{
+    margin-top: 5rem;
+    width: 100%;
+    height: auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.964)), url(/photos/ziczac.png);
+    border-bottom: 2px rgba(255, 255, 255, 0.281) dashed;
+}
+.home{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textbody{
+    margin-top: 100px;
+    width: 100%;
+    height: 20%;
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+#title{
+    color: white;
+    letter-spacing: 1px;
+    height: 50%;
+    width: 400px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin: auto;
+   
+}
+#text{
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50%;
+    width: 420px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.atract{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+} 
+#text2{
+   width: 415px;
+   height: 30%;
+   text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+   color: gray;
+   letter-spacing: 2px;
+   font-size: 20px;
+   font-weight: 700;
+}
+#productsbtn{
+    margin-right: auto;
+    margin-left: auto;
+    height: 30px;
+    width: 130px;
+    margin-bottom: 20px;
+    background-color: rgb(158, 158, 158);
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#productsbtn:hover{
+    background-color: rgb(189, 188, 188);
+    cursor: pointer;
+}
+#exp{
+    color: darkred;
+    font-weight: 800;
+    font-size: 20px;
+    border-bottom: 1px gray solid;
+    width: 300px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    padding-bottom: 4px;
+}
+
+.footer{
+    height: 12rem;
+    width: 100%;
+    background: black;
+    display: flex;
+}
+.logobody{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    width: 110px;
+    height: 100px;
+}
+.timebody{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clockimg{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+#time{
+    color: gray;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.deliverybody{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#deliveryimg{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#delivery{
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.icons{
+    width: 150px;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+#icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+

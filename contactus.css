@@ -1,0 +1,206 @@
+.contactus{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+#contactus-title-body{
+    width: 100%;
+    height: 350px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background-color: gray;
+   
+}
+#contactus-title{
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+#contactus-title-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.54);
+}
+#title-Address-phone-Email-body{
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 40px;
+    border-left: 5px gray solid;
+    padding-left: 7px;
+
+}
+.Address-phone-Email-body{
+    margin-top: 10px;
+    width: 96%;
+    height: 340px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.Address-phone-Email{
+    width: 32%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   border-radius: 8px;
+}
+.Address-phone-Email:hover{
+    transform: scale(1.04);
+}
+.Address-phone-Email img{
+    margin-top: 50px;
+}
+#Address-phone-Email-text{
+    color: black;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+#Address-phone-Email-content-body{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin: auto;
+}
+#Address-phone-Email-content-body p{
+color: rgb(0, 0, 0);
+font-size: 16px;
+font-weight: 500;
+padding-bottom: 10px;
+}
+.contactus-explanation{
+    color: white;
+    height: auto;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.contactus-img-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.contactus-img-body img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.contactus-img-body p{
+   color: white;
+   font-size: 18px;
+   font-weight: 800;
+   margin-bottom: 5px;
+}
+form{
+    width: 99%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 80px;
+    border: 1px dashed rgba(255, 255, 255, 0.049);
+    padding-top: 20px;
+  padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#map{
+    margin-top: 10px;
+  width: 80%;
+  height: 300px;
+  filter: brightness(60%);
+  transition: 1s;
+  border-radius: 10px;
+   
+}
+#map:hover{
+  filter: brightness(100%);
+}
+
+#inputtext{
+width: 400px;
+height: 50px;
+margin-bottom: 30px;
+background: rgb(255, 255, 255);
+border: none;
+padding-left: 10px;
+outline: none;
+border-radius: 8px;
+filter: brightness(70%);
+transition: 1s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+#message{
+    width: 400px;
+    background: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: none;
+    resize: none;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: 500;
+   filter: brightness(70%);
+   transition: 1s;
+}
+
+#submit{
+    width: 100px;
+    height: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: red;
+    filter: brightness(70%);
+    margin-top: 30px;
+    border-radius: 7px;
+    transition: 1s;
+}
+#submit:hover{
+    filter: brightness(100%);
+    cursor: pointer;
+    
+}
+
+#message:hover,#inputtext:hover{
+    filter: brightness(100%);
+}
+
+#inputtext::placeholder,#message::placeholder{
+    color: black;
+    font-size: 15px;
+}

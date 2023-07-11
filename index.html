@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Style.css">
+    <link rel="stylesheet" href="/contactus.css">
+</head>
+<body>
+   <div class="container">
+    <div class="top">
+        <a href="#">MANSOUR</a>
+        <ul>
+            <li><button onclick="modes(this.id)" id="home">Home</button></li>
+            <li><button onclick="modes(this.id)" id="products">Products</button></li>
+            <li><button onclick="modes(this.id)" id="aboutus">About Us</button></li>
+            <li><button onclick="modes(this.id)" id="contactus">Contact US</button></li>
+            <li><button onclick="modes(this.id)" id="location">Location</button></li>
+        </ul>
+    </div>
+
+    <div class="contnet">
+
+        <div class="home">
+
+            <div class="textbody">
+                <h1 id="title"></h1>
+                <p id="text"></p>
+            </div>
+    
+            <div class="atract">
+                <p id="text2" >Discover our captivating winter clothing collection for men.</p>
+                <button id="productsbtn">Show Products</button>
+                <span id="exp">Twenty years experience</span>
+            </div>
+
+        </div>  
+        
+        <div class="products">
+
+        </div>
+
+        <div class="aboutus">
+
+        </div>
+
+        <div class="contactus">
+            <div id="contactus-title-body">
+                <p id="contactus-title">How can we help you</p>
+                <p id="contactus-title-text">Without Contact Us, your problems remain unsolved, hindered by a lack of communication.</p>
+            </div>
+
+            <p id="title-Address-phone-Email-body">Reach Our Expert Team</p>
+            
+            <div class="Address-phone-Email-body">
+
+                <div class="Address-phone-Email">
+                    <img src="/photos/location.png" alt="" style="width: 50px; height: 50px;">
+                    <p id="Address-phone-Email-text">Address</p>
+                    <div id="Address-phone-Email-content-body">
+                        <p>Borj El Brajneh-Rweis Street-Behind Alyasmine Bakery</p>
+
+                    </div>
+                </div>
+                <div class="Address-phone-Email">
+                    <img src="/photos/phone-call.png" alt="" style="width: 50px; height: 50px;">
+                    <p id="Address-phone-Email-text">phone</p>
+                    <div id="Address-phone-Email-content-body">
+                        <p>Hassan:70 941 003</p>
+                        <p>Issa:03 026 681</p>
+                        <p>Moussa:71 420 276</p>
+                    </div>
+                </div>
+                <div class="Address-phone-Email">
+                    <img src="/photos/mail.png" alt="" style="width: 50px; height: 50px;">
+                    <p id="Address-phone-Email-text">email</p>
+                    <div id="Address-phone-Email-content-body">
+                        <p>issa.mansourr04@gmail.com</p>
+                        <p>winterwear2000@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <p id="title-Address-phone-Email-body">Have Questions? Contact Us</p>
+<!--action="https://formsubmit.co/7e08780f37a79b7800bee73aad65bd7f"-->
+            <form action="https://formsubmit.co/7e08780f37a79b7800bee73aad65bd7f" method="post" onsubmit="clearinputs()">
+                <input type="text" name="name" placeholder="Full Name :" id="inputtext" required>
+                <input type="number" name="phone number" placeholder="phone number :" id="inputtext" required>
+                <input type="email" name="email" placeholder="Email:youremail@gmail.com" id="inputtext" required>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="type..." required></textarea>
+                <input type="submit" value="send" id="submit" onclick="clearinputs()">
+            </form>
+
+            <p class="contactus-explanation">
+                The "Contact Us" page is a crucial component of any website as it serves
+                 as a direct communication
+                 channel between the visitors and the website owner or support team.
+                 It plays a vital role in enhancing user experience and establishing trust and credibility.
+                 The contact form, present on this page,
+                 offers a convenient and organized way for users to reach out,
+                 allowing them to provide essential details and specific inquiries, ensuring a prompt and tailored response.
+                 By prioritizing a well-designed contact us page and form,
+                 businesses can foster engagement, address customer concerns,
+                 and build strong relationships with their audience.
+           </p>
+
+           <div class="contactus-img-body">
+            <img src="/photos/map (4).png" alt="">
+            <p>Map</p>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1656.9084291722677!2d35.513049353951004!3d33.8428333639202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f19de95ec9261%3A0xed3e0e4d634769b1!2sWinter%20Wear!5e0!3m2!1sen!2slb!4v1687897791891!5m2!1sen!2slb"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+           </div>
+          
+
+        </div>
+
+        <div class="location">
+
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="logobody">
+            <img id="logo" src="/photos/logo.png" alt="">
+        </div>
+        
+        <div class="timebody">
+           <img class="clockimg" src="/photos/clock (1).png" ></img>
+            <p id="time">open time 9:00 am</p>
+            <p id="time">closed time 8:00 pm</p>
+            <p id="time">From MON to SAT</p>
+        </div>
+
+        <div class="deliverybody">
+           <img id="deliveryimg"  src="/photos/truck.png">
+           <p id="delivery">Delivery service within Beirut and its environs</p>
+           <p id="delivery">cost:3$</p>
+           <p id="delivery">follow us:</p>
+           <div class="icons">
+            <img src="/photos/facebook.png"  id="icon">
+            <img src="/photos/instagram.png"  id="icon">
+            <img src="/photos/whatsapp.png"  id="icon">
+           
+           </div>
+
+            
+        </div>
+
+
+    </div>
+
+   </div>
+    <script src="/main.js"></script>
+</body>
+</html>
